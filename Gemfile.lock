@@ -1,14 +1,26 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    daemons (1.1.2)
+    eventmachine (0.12.10)
     rack (1.2.2)
+    redis (2.2.0)
+    roauth (0.0.3)
     sinatra (1.2.2)
       rack (~> 1.1)
       tilt (< 2.0, >= 1.2.2)
     tilt (1.2.2)
+    tweetstream (1.0.4)
+      daemons
+      twitter-stream
+    twitter-stream (0.1.12)
+      eventmachine (>= 0.12.8)
+      roauth (>= 0.0.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  redis
   sinatra
+  tweetstream

@@ -1,0 +1,22 @@
+= NATHAN LANE VS A RAPTOR!
+
+For http://barcampboston.org, there was a programming contest. You had to pick 3 items from a board, I chose:
+
+Nathan Lane
+"my dignity"
+Nerds
+
+I ended up writing a twitter app to stream responses that said "my dignity" and "nerds".
+
+= Why isn't anything changing?
+
+You have to run the stream process to get tweets to come in. Read the instructions!
+
+= INSTALL
+
+Requires Ruby 1.9.2, then run:
+
+  gem install bundler
+  bundle (to get gems)
+  rackup (to run the web server)
+  rake watch (to stream in tweets)

@@ -138,7 +138,7 @@ body {
   color: #fff;
   background: #000;
   text-align: center;
-  font: 36px/40px 'ChunkFiveRegular', Arial, sans-serif;
+  font: 50px/58px 'LeagueGothicRegular', Arial, sans-serif;
   letter-spacing: 0;
 }
 
@@ -167,18 +167,48 @@ body {
   background: #fff;
   color: #000;
   padding: 20px;
+  width: 500px;
+  position: absolute;
+  z-index: 99;
 }
 
 #nathan-tweets {
-  position: absolute;
   left: 0;
-  width: 400px;
   top: 0;
 }
 
 #raptor-tweets {
   right: 0;
   top: 0;
-  width: 400px;
+}
+
+#sig {
+  right: 0;
+  bottom: 0;
+}
+
+#title {
+  left: 0;
+  bottom: 0;
+}
+
+.bottom {
   position: absolute;
+  font-size: 30px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  padding: 0px 6px;
+  width: 400px;
+}
+
+.track {
+  color: #FF6EB4;
+}
+
+.why {
+  display: block;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
 }
